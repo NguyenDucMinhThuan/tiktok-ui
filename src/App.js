@@ -20,12 +20,13 @@ function App() {
               Layout = Fragment
             }
 
-            return (<Route 
+            return (
+            <Route 
                 key = {index} 
                 path = {route.path} 
                 element = {
                   <Layout> 
-                    <Page/> 
+                    <Page/>  
                   </Layout>
                 }
               />
